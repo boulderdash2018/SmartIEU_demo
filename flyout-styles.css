@@ -1,0 +1,57 @@
+.flyout-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.flyout-button {
+    background: #1E3A5F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.flyout-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 15px;
+    z-index: 1000;
+    left: 100%;
+    top: 0;
+    margin-left: 10px;
+}
+
+.flyout-menu:hover .flyout-content {
+    display: block;
+}
+
+.explanation-title {
+    font-weight: bold;
+    color: #1E3A5F;
+    margin-bottom: 10px;
+}
+
+.explanation-text {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.example-title {
+    font-weight: bold;
+    color: #1E3A5F;
+    margin-bottom: 10px;
+}
+
+.example-text {
+    font-style: italic;
+    color: #666;
+    line-height: 1.5;
+}
